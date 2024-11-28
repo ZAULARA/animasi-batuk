@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.character {
+  position: relative;
+  width: 100px;
+  height: 150px;
+}
+
+.head {
+  width: 60px;
+  height: 60px;
+  background-color: #ffcc99;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.body {
+  width: 80px;
+  height: 100px;
+  background-color: #99ccff;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+}
+
+.mouth {
+  width: 20px;
+  height: 10px;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
