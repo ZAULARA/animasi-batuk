@@ -1,0 +1,11 @@
+const mouth = document.querySelector('.mouth');
+
+function animateCough() {
+  mouth.style.transform = 'scale(1.5, 1)';
+  setTimeout(() => {
+    mouth.style.transform = 'scale(1, 1)';
+  }, 300);
+}
+
+// Buat animasi batuk berulang setiap 1 detik
+setInterval(animateCough, 1000);
